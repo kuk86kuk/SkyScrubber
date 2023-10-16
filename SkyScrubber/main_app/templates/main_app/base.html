@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyScrubber</title>
+    <link rel="stylesheet" href="{% static 'css/base.css'%}">
+    <link rel="stylesheet" href="{% static 'css/headers.css'%}">
+    <link rel="stylesheet" href="{% static 'css/footer.css'%}">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="headers_box">
+                <div class="headers_heading">
+                    <h1><a href="{% url 'index' %}" style="color:black;">SkyScrubber</h1>
+                </div>
+                <div class="headers_links">
+                    <nav >
+                        <ul class="top-menu">
+                            <li><a href="{% url 'index' %}">Главная</a> </li>
+                            <li><a href="{% url 'render_photo' %}">Render</a></li>
+                            <li><a href="{% url 'algorithm' %}">Алгоритм</a> </li>
+                            <li><a href="{% url 'stack' %}">Стек</a> </li>
+                            <li><a href="{% url 'about' %}">О нас</a> </li>
+                        </ul>                   
+                    </nav>
+                </div>
+            </div>    
+        </header>
+        
+        {% block content%}
+
+        {% endblock content%}
+
+    </div>
+    <footer>
+        <div class="footer-box">
+            <p>&copy; 2023 SkyScrubber. Все права защищены.</p>
+        </div>
+        
+    </footer>
+</body>
+
+
+
+ 
