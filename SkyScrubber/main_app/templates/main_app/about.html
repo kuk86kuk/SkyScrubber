@@ -1,0 +1,60 @@
+{% extends 'main_app/base.html' %}
+{% load static %}
+{% block content%}
+    <div>
+        <div>
+            <h1>Команда в лицах</h1>
+        </div>
+        <div>
+            <div>
+                <img src="{% static 'img/about/egor.jpg'%}" alt="egor">
+                <h2>
+                    Егор
+                </h2>
+                <p>
+                    Full Stack Developer
+                    А со второго спринта
+                    также разметчик
+                </p>
+            </div>
+
+            <div>
+                <img src="{% static 'img/about/yura.jpg'%}" alt="egor">
+                <h2>
+                    Юра
+                </h2>
+                <p>
+                    ML Engineer
+                    А может и фронт?..
+                </p>
+            </div>
+
+            <div>
+                <img src="{% static 'img/about/sonja.jpg'%}" alt="egor">
+                <h2>
+                    Соня
+                </h2>
+                <p>
+                    ML Researcher
+                    Подборка курсов и
+                    разметчик ближайшие 2
+                    спринта
+                </p>
+            </div>
+
+            <div>
+                <img src="{% static 'img/about/artem.jpg'%}" alt="egor">
+                <h2>
+                    Артем
+                </h2>
+                <p>
+                    Product Owner
+                    Контактное лицо и
+                    очередной разметчик
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+{% endblock content%}

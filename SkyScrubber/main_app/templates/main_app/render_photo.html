@@ -1,0 +1,12 @@
+{% extends 'main_app/base.html' %}
+
+{% block content%}
+
+    <!-- Здесь будет остальное содержимое вашего сайта -->
+    <h1>Загрузка файла</h1>
+    <form action="обработчик.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Загрузить файл" name="submit">
+    </form>
+
+{% endblock content%}

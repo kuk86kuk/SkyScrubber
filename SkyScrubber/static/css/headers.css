@@ -1,0 +1,39 @@
+.headers_box {
+    width: 100%;
+    height: 200px; /* Начальная высота шапки */
+    background-color: #FF8C00; /* Цвет шапки */
+    display: grid;
+
+}
+
+.headers_heading {
+    margin: auto;
+    
+}
+
+.headers_heading h1{
+    
+    font-size: 6rem;}
+
+
+.headers_links {
+
+    height: 50px; /* Начальная высота шапки */
+    display: flex;
+    margin: auto;
+}
+.headers_link {
+    margin-left: 10%;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 10px 30px;
+	margin: 0;
+    font-size: 2rem;
+    color:black;
+}
+
+.top-menu a {
+	color:black;
+}
