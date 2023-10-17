@@ -1,39 +1,44 @@
 .headers_box {
     width: 100%;
-    height: 200px; /* Начальная высота шапки */
+    height: 90px; /* Начальная высота шапки */
     background-color: #FF8C00; /* Цвет шапки */
-    display: grid;
-
+    display: flex;
+    
 }
-
 .headers_heading {
-    margin: auto;
-    
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 30px;
+
 }
 
-.headers_heading h1{
-    
-    font-size: 6rem;}
-
+.headers_heading a {
+    font-size: 60px;
+}
 
 .headers_links {
-
-    height: 50px; /* Начальная высота шапки */
+    
     display: flex;
-    margin: auto;
-}
-.headers_link {
-    margin-left: 10%;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 120px;
 }
 
-.top-menu li {
-    display: inline-block;
-    padding: 10px 30px;
-	margin: 0;
-    font-size: 2rem;
-    color:black;
+.top-menu {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 12px;
+    
+    
 }
 
 .top-menu a {
-	color:black;
+    font-size: 30px;
+    margin: 0 15px 0 15px;
+    color: white;
+    
 }
+

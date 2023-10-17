@@ -1,0 +1,8 @@
+.main-photo img {
+    width: 100%;
+    height: 700px;
+}
+
+.main-box-pain {
+    display: flex;
+}
